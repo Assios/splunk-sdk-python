@@ -10,7 +10,7 @@ the same kind of event).
 
 This type of service is especially suited to Splunk, given the temporal nature
 of the data, together with the lack of schema and no need to update past events.
-
+y
 ## Architecture
 
 The main component of the Analytics example are two pieces of reusable code
@@ -19,7 +19,7 @@ meant to manage input and output of data into Splunk.
 ### AnalyticsTracker
 
 The `input.py` file defines the "input" side of the Analytics service. If you 
-wanted to log some analytics data in your app, you would the `AnalyticsTracker`
+wanted to log some analytics data in your app, you would have the `AnalyticsTracker`
 class defined in this file in order to do so.
 
 The `AnalyticsTracker` class encapsulates all the information required to log
